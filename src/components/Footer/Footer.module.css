@@ -1,0 +1,20 @@
+.FooterMain{
+
+border: 1px solid rgba(255, 255, 255, 0.46);
+border-radius: 700px;
+width: 1300px;
+height: 1301px;
+position: relative;
+top: -105px;box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.3px);
+-webkit-backdrop-filter: blur(8.3px);
+background: rgba(255, 255, 255, 0.16);
+}
+
+.Footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+        border-radius: 50%;
+    height: 200px;
+    
+}

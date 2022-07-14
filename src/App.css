@@ -1,0 +1,27 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+*::-webkit-scrollbar {
+   display: none;
+ }
+ 
+ /* Hide scrollbar for IE, Edge and Firefox */
+ * {
+   -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: none;  /* Firefox */
+ }
+:root {
+
+   /* Colors: */
+   --purple: #7C0FD5;
+   --prple: #8B0DD9;
+   --lightblue: #578EFA;
+   --navyblue: #1E232C;
+   --pink: #FF00F7;
+   --black: #000000;
+   --white: #FFFFFF;
+   --blue: #271AC1;
+   --grey: #707070;
+}

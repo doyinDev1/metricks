@@ -1,0 +1,41 @@
+.ComingSoonHeroTop {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.ComingSoonHeroTopText {
+  font-size: 3.8rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: var(--white);
+  text-transform: uppercase;
+}
+.firstSvg {
+  position: relative;
+  left: 152px;
+  width: 140px;
+  height: 143px;
+  border-radius: 80px;
+  opacity: 1;
+  background: transparent linear-gradient(177deg, #7f1e7b 0%, #19073b 100%) 0%
+    0% no-repeat padding-box;
+}
+.secondSvg {
+  position: relative;
+  width: 104px;
+  top: 120px;
+  height: 107px;
+  background: transparent linear-gradient(177deg, #213f72 0%, #19073b 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 80px;
+}
+
+.ComingSoonHeroTopParagragh {
+  font-family: "Poppins", sans-serif;
+  color: var(--white);
+  text-align: center;
+  font-size: 1.3rem;
+}
+.ComingSoonHeroTopSpan {
+  font-weight: 700;
+}
