@@ -1,0 +1,33 @@
+.ComingSoonHeroTimer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 2.25rem;
+  padding-bottom: 3.8rem;
+}
+.HeroTimerCard {
+  top: 525px;
+  left: 698px;
+  width: 120px;
+  height: 134px;
+  /* UI Properties */
+  background: var(--white) 0% 0% no-repeat padding-box;
+  border-radius: 9px;
+  font-family: "Poppins", sans-serif;
+}
+
+.HeroTimerCard h1 {
+  font-size: 2.9rem;
+}
+.HeroTimerCard p {
+  font-size: 1.1rem;
+}
+
+.HeroTimerCardMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.3rem;
+  padding-bottom: 1.4rem;
+}

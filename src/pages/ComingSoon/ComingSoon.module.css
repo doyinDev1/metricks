@@ -1,0 +1,7 @@
+.ComingSoon {
+  background-image: url(../../assets/images/back.png);
+  background-repeat: round;
+  height: 100vh;
+  overflow: scroll;
+
+}

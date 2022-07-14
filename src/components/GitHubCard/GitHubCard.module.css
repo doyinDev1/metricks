@@ -1,0 +1,29 @@
+.github{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 20px;
+    gap: 10px;
+    /* border: 1px solid grey;
+    border-radius: 10px; */
+}
+
+.githubAvatarCard{
+}
+.githubAvatar{
+    object-fit: contain;
+    width: 120px;
+}
+.githubDescriptionText {
+    padding-bottom: 20px;
+}
+
+.githubStars{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.githubStars span{
+    padding: 5px 10px;
+    border: 1px solid var(--grey);
+    border-radius: 5px;
+}

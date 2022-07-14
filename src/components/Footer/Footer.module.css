@@ -1,0 +1,62 @@
+.FooterMain {
+  border: 1px solid rgba(255, 255, 255, 0.46);
+  border-radius: 700px;
+  width: 1300px;
+  height: 1301px;
+  position: relative;
+  top: -105px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.3px);
+  -webkit-backdrop-filter: blur(8.3px);
+  background: rgba(255, 255, 255, 0.16);
+  transform: translate(-50%, -50%);
+
+}
+
+.Footer {
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins";
+  color: var(--grey);
+  /* width: 1300px;
+  height: 1301px;
+  background: transparent linear-gradient(180deg, #213F72 0%, #19073B 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  backdrop-filter: blur(1.3px);
+  -webkit-backdrop-filter: blur(8.3px);
+  transform: translate(50%, 50%, ); */
+
+/* 
+  position: absolute;
+    margin-top: -480px; */
+}
+
+.FooterMainIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.8rem;
+  padding-bottom: 1.3rem;
+  /* margin-top: -470px; */
+
+}
+.FooterMainIcon svg {
+  color: var(--grey);
+  font-size: 1.75rem;
+}
+
+.Privacy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4.25rem;
+  padding-bottom: 1.87rem;
+}
+
+.Copyright{
+    padding-bottom: 2.2rem;
+
+}

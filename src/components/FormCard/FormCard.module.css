@@ -1,0 +1,91 @@
+.FormCard{
+    /* padding-bottom: 4.18rem ; */
+}
+
+.FormDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 2.5rem;
+}
+
+.FormDetails input[type="text"] {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  width: 15rem;
+  color: var(--white);
+  font-family: "Poppins";
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+.FormDetails input[type="text"]::placeholder{
+    color: var(--grey);
+    font-size: 1rem;
+
+}
+
+.FormInput:nth-child(2) {
+  padding-left: 20px;
+}
+.FormSubmit{
+    display: flex;
+align-items: center;
+justify-content: center
+}
+
+.FormSubmitInput{
+    position: relative;
+    right: -130px;
+width: 664px;
+height: 67px;
+/* UI Properties */
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 51px;
+opacity: 1;
+}
+
+/* .FormSubmitButton{
+
+} */
+.FormSubmit input[type="email"] {
+padding: 10px 2.8rem;
+border: none;
+outline: none;
+font-size: 1rem;
+}
+
+
+.FormSubmit input[type="email"]::placeholder{
+    font-size: 1rem;
+    font-family: "Poppins";
+color: var(--black);
+}
+
+.FormSubmitButton{
+  position: relative;
+  left: -115px;
+    width: 250px;
+    height: 67px;
+    background: #271AC1 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #09090991;
+    border-radius: 51px;
+    color: var(--white);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: "Poppins";
+    border: none;
+    outline: none;
+}
+.FormBubble{
+
+width: 183px;
+height: 187px;
+background: transparent linear-gradient(177deg, #7F4129 0%, #1C0C28 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+border-radius: 80%;
+margin-left: 20rem;
+}
