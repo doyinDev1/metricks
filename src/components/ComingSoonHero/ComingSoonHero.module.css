@@ -9,6 +9,8 @@
   font-family: "Poppins", sans-serif;
   color: var(--white);
   text-transform: uppercase;
+  z-index: 99;
+
 }
 .firstSvg {
   position: relative;

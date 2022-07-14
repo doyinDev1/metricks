@@ -12,7 +12,7 @@ const ComingSoon = () => {
       <ComingSoonHero />
       <TimerCard />
       <FormCard />
-      <Footer/>
+      <Footer />
     </div>
   );
 };
