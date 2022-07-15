@@ -5,16 +5,19 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { ImLinkedin } from "react-icons/im";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaTwitterSquare } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className={classes.Footer}>
+      <ul>
       <div className={classes.FooterMainIcon}>
-        <AiFillYoutube />
-        <FaFacebookSquare />
-        <ImLinkedin />
-        <RiInstagramFill />
-        <FaTwitterSquare />
+        <li><Link to="https://www.youtube.com/channel/UC8FRSb8AmMk0YFDt_M7Ypmw"><AiFillYoutube /></Link></li>
+        <li><Link to="https://m.facebook.com/metricks.io"><FaFacebookSquare /></Link></li>
+        <li><Link to="https://www.linkedin.com/company/metricks-io"><ImLinkedin /></Link></li>
+        <li><Link to="https://www.linkedin.com/company/metricks-io/"><RiInstagramFill /></Link></li>
+        <li><Link to="https://twitter.com/metricks_io?s=21"><FaTwitterSquare /></Link></li>
       </div>
+      </ul>
       <div className={classes.Privacy}>
         <p>Terms of services</p>
         <p>Privacy policy</p>

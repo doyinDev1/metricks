@@ -1,0 +1,9 @@
+.NotFound{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.NotFoundLink{
+    color: black;
+}
