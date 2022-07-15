@@ -8,8 +8,11 @@ const FormCard = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => console.log(data);
-  // console.log(errors);
+  const onSubmit = (data) => {
+    // console.log(data);
+    // console.log(errors);
+  
+  }
   return (
     <div className={classes.FormCard}>
       <form onSubmit={handleSubmit(onSubmit)}>

@@ -4,6 +4,6 @@ justify-content: center;
 flex-direction: column;
 }
 
-a{
+.NotFoundLink{
     color: black;
 }

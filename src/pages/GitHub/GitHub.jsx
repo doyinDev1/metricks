@@ -38,7 +38,7 @@ const GitHub = () => {
         )}
         <div className={classes.PaginatedButton}>
           <PaginationButtons
-            lastPage={40}
+            lastPage={30}
             currentPage={page}
             setPage={setPage}
           />

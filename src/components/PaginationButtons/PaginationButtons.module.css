@@ -18,7 +18,9 @@
 	color: var(--grey);
 	outline: none;
 }
-
+.ButtonActive{
+	color: aqua;
+}
 .PaginationContainer .Button:hover {
 	background-color: var(--purple);
 	color: #fff;

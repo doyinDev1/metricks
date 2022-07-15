@@ -9,6 +9,7 @@ import NotFound from './pages/NotFound/NotFound';
 
 function App() {
   useEffect(() => {
+    // To force scrolling to the top on any window change
     window.scrollTo(0, 0)
   })
   return (
@@ -20,7 +21,6 @@ function App() {
         <Route path='/github' element={<GitHub />} />
         <Route path='/404' element={<NotFound />} />
         <Route path="*" element={<Navigate replace to="/404" />} />
-
       </Routes>
     </>
   );

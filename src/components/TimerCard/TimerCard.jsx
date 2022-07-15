@@ -23,7 +23,6 @@ const TimerCard = () => {
     setHoursTimer(hours);
     setDaysTimer(days);
   }, 1000);
-  // console.log( myfunc)
 
   return (
     <div className={classes.ComingSoonHeroTimer}>

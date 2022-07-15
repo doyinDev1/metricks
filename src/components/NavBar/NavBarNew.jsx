@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./NavBarNew.module.css";
-import metricks from "../../assets/images/metricks.png";
 import metricksLogo from "../../assets/images/metricksLogo.png";
 
 import { Link } from "react-router-dom";
@@ -9,8 +8,7 @@ const NavBarNew = () => {
     <div className={classes.NavBar}>
       <>
         <div className={classes.NavImgTop}>
-          <img src={metricksLogo} alt="" className={classes.NavImg} />
-          {/* <h1 className={classes.NavText}>METRICKS</h1> */}
+          <img src={metricksLogo} alt="Metricks" className={classes.NavImg} />
         </div>
         <ul>
           <div className={classes.NavLink}>
